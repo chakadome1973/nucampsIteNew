@@ -12,3 +12,9 @@ $(function() {
         }
     });
 });
+$('#btn').click(function() {
+    $('#reserveButton').modal('show');
+ });
+ $('#btn').click(function() {
+    $('#loginButton').modal('show');
+ });
